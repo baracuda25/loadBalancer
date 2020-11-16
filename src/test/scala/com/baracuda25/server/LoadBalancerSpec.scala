@@ -144,7 +144,7 @@ class LoadBalancerSpec
           val unhealthyProvider = providers(0)
           reset(unhealthyProvider)
           unhealthyProvider.check() returns Future.successful(Dead)
-          Thread.sleep(1000)
+          Thread.sleep(1100)
 
           whenReady(Future.sequence(getResults)) { withoutProvider1result =>
             withoutProvider1result shouldBe result.takeRight(8) ++ result.tail
