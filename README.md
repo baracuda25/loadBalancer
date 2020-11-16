@@ -1,3 +1,5 @@
+![Scala CI](https://github.com/baracuda25/loadBalancer/workflows/Scala%20CI/badge.svg)
+
 ## LOAD BALANCING
 
 *A load balancer* is a component that, once invoked, it distributes incoming
