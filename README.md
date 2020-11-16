@@ -1,4 +1,4 @@
-![Scala CI](https://github.com/baracuda25/loadBalancer/workflows/Scala%20CI/badge.svg)
+![Scala CI](https://github.com/baracuda25/loadBalancer/workflows/Scala%20CI/badge.svg?branch=main)
 
 ## LOAD BALANCING
 
