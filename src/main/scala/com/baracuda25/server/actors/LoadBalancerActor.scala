@@ -89,7 +89,7 @@ class LoadBalancerActor(
             operational(
               providers :+ ProviderInstance(
                 provider.id,
-                Alive,
+                Dead,
                 providerCapacity,
                 0,
                 providerRef
